@@ -41,6 +41,7 @@
     "crypto-browserify": "^3.12.0",
     "docx": "^9.0.3",
     "docxtemplater": "^3.55.7",
+    "eslint": "^8.57.1",
     "file-saver": "^2.0.5",
     "html-docx-js": "^0.3.1",
     "html2pdf": "^0.0.11",
@@ -99,16 +100,16 @@
   },
   "eslintConfig": {
     "extends": "react-app",
-      "globals": {
-    "setTaskhistoryId": "readonly",
-    "setTextHistory": "readonly",
-    "path": "readonly",
-    "userId": "readonly",
-    "handleComplete": "readonly",
-    "switchstatus": "readonly",
-    "setFileExtension": "readonly",
-    "handleRedirect": "readonly"
-  }
+    "globals": {
+      "setTaskhistoryId": "readonly",
+      "setTextHistory": "readonly",
+      "path": "readonly",
+      "userId": "readonly",
+      "handleComplete": "readonly",
+      "switchstatus": "readonly",
+      "setFileExtension": "readonly",
+      "handleRedirect": "readonly"
+    }
   },
   "browserslist": {
     "production": [
