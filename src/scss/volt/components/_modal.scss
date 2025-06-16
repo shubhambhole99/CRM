@@ -1,0 +1,65 @@
+/**
+ * = Modals
+ */
+
+.modal {
+    width: 100%;
+   
+}
+
+.modal-content {
+    width: max-content;
+    min-width: 700px;
+    padding: 10px;
+
+
+    @if $enable-rounded {
+        border-radius: $modal-content-border-radius;
+    }
+
+    @else {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .modal-content {
+        // border: 1px solid red;
+        // width: 700px;
+        // min-height: 900px;
+        // height: max-content;
+        // position: fixed;
+        // left: 0;
+        // margin: auto !important;
+
+        // margin-left: -20%;
+        // direction: rtl;
+        // align-items: left;
+        // align-content: left;
+        // align-self: left;
+        // justify-content: left;
+        // justify-items: left;
+        // justify-self: left;
+
+        // margin-left: -40%;
+
+        @if $enable-rounded {
+            border-radius: $modal-content-border-radius;
+        }
+
+        @else {
+            border-radius: 0;
+        }
+    }
+}
+
+.modal-fluid {
+    .modal-dialog {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .modal-content {
+        border-radius: 0;
+    }
+}

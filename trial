@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<title>
+		</title>
+		<style>
+			body { font-family:'Times New Roman'; font-size:12pt }
+			h1, h2, p { margin:0pt }
+			li, table { margin-top:0pt; margin-bottom:0pt }
+			h1 { margin-left:73.6pt; margin-bottom:0pt; page-break-inside:auto; page-break-after:auto; line-height:normal; widows:0; orphans:0; font-family:'Trebuchet MS'; font-size:10pt; font-weight:bold; color:#000000 }
+			h2 { margin-top:2pt; margin-bottom:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:Cambria; font-size:13pt; font-weight:normal; color:#365f91 }
+			.BalloonText { margin-bottom:0pt; line-height:normal; font-family:Tahoma; font-size:8pt }
+			.BodyText { margin-bottom:0pt; line-height:normal; widows:0; orphans:0; font-family:'Trebuchet MS'; font-size:10pt }
+			.Footer { margin-bottom:0pt; line-height:normal; font-family:'Times New Roman'; font-size:12pt }
+			.Header { margin-bottom:0pt; line-height:normal; font-family:'Times New Roman'; font-size:12pt }
+			.ListParagraph { margin-left:36pt; margin-bottom:0pt; line-height:normal; font-family:'Times New Roman'; font-size:12pt }
+			.NoSpacing { margin-bottom:0pt; line-height:normal; font-family:Calibri; font-size:11pt }
+			.TableParagraph { margin-left:5pt; margin-bottom:0pt; line-height:normal; widows:0; orphans:0; font-family:'Trebuchet MS'; font-size:11pt }
+			.Title { margin-top:0.9pt; margin-left:1pt; margin-bottom:0pt; line-height:normal; widows:0; orphans:0; font-family:'Trebuchet MS'; font-size:15pt }
+			span.BalloonTextChar { font-family:Tahoma; font-size:8pt }
+			span.BodyTextChar { font-family:'Trebuchet MS'; font-size:10pt }
+			span.FooterChar { font-family:'Times New Roman'; font-size:12pt }
+			span.HeaderChar { font-family:'Times New Roman'; font-size:12pt }
+			span.Heading1Char { font-family:'Trebuchet MS'; font-size:10pt; font-weight:bold }
+			span.Heading2Char { font-family:Cambria; font-size:13pt; color:#365f91 }
+			span.Hyperlink { text-decoration:underline; color:#0000ff }
+			span.IntenseReference { font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd }
+			span.TitleChar { font-family:'Trebuchet MS'; font-size:15pt }
+			.awlist1 { list-style:none; counter-reset:awlistcounter36_0 }
+			.awlist1 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist2 { list-style:none; counter-reset:awlistcounter36_0 1 }
+			.awlist2 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist3 { list-style:none; counter-reset:awlistcounter36_0 2 }
+			.awlist3 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist4 { list-style:none; counter-reset:awlistcounter36_0 3 }
+			.awlist4 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist5 { list-style:none; counter-reset:awlistcounter36_0 4 }
+			.awlist5 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist6 { list-style:none; counter-reset:awlistcounter36_0 5 }
+			.awlist6 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist7 { list-style:none; counter-reset:awlistcounter36_0 6 }
+			.awlist7 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+			.awlist8 { list-style:none; counter-reset:awlistcounter36_0 7 }
+			.awlist8 > li:before { content:'(' counter(awlistcounter36_0, upper-roman) ')'; counter-increment:awlistcounter36_0 }
+@media (max-width: 900px) { 
+img { 
+   max-width: 100%;
+   height: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+}	
+
+
+		</style>
+	</head>
+
+	<body>
+             <img  style ="margin-bottom:-50px"class="background-image" src="./c.png" width="100%" />
+
+		<div>
+			<p style="font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">VBAPL/Chintamani-CHS /00</span></strong><strong><span style="font-family:'Bookman Old Style'; ">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span></strong><strong><span style="font-family:'Bookman Old Style'; ">Date: 02.12.2024</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">To,</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">The Hon. Chairman / Secretary,</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">Shamika Chintamani Ganesh-Baug CHS. Ltd.,</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">Gopalkrishna Gokhale Road,</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">Mulund East,</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">Mumbai-81.</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; line-height:115%; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">Sub: Submission of Proposal for appointment of PMC.</span></strong>
+			</p>
+			<p style="text-align:justify; line-height:115%; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">Ref: Proposal for appointment of Project Management Consultant for proposed society redevelopment of your society Shamika Chintamani Ganesh-Baug CHS. Ltd., Gopalkrishna Gokhale Road, Mulund East, Mumbai-81.</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<p style="text-align:justify; line-height:115%; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">Respected Sir / Madam,</span>
+			</p>
+			<p style="margin-top:12pt; margin-bottom:6pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">We would like to thank you for giving us an opportunity to express our interest and introduce ourselves personally regarding providing Project Management Consultancy Services. We are a 30-year-old firm with vast experience in the construction industry including design, execution &amp; liaison-related work. We have executed several redevelopment projects in Mumbai (Private as well as MHADA Societies).</span>
+			</p>
+			<p style="margin-top:12pt; margin-bottom:6pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">VBAPL is an Architectural Design and Project Management Consultancy firm founded by Vivek Bhole in the year 1994. After working for a wide range of Residential (Villas and high-rise), Commercial (Malls), Corporate, Township, Institutional and Hospitality projects with renowned clientele for over 30 years, VBAPL now boasts of handling Project Management Consultancy projects for both residential as well as government projects. VBAPL is proud to have on their board of directors, Ar. Yogita Bhole (Director-Design), Rekha Bhole Chaudhari (Director-Business Development), Milind Bhole (Director-Liasoning), Ar. Ketan Sonawadekar (Executive Director-Architectural Design), Shrihari Dusa, (Director - MOEF Services), Ar. Mamta Patwardhan (Director-PMC, M. Arch. Mumbai University First Ranker).</span>
+			</p>
+			<p style="margin-top:12pt; margin-bottom:6pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">The firm's profile is shared herewith.</span>
+			</p>
+			<p style="margin-top:6pt; margin-bottom:6pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">Thanking you.</span>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">Yours faithfully,</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">For, M/s. Vivek Bhole Consultants Pvt. Ltd.</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">M/s. Milind. J. Bhole</span></strong>
+			</p>
+			<p style="text-align:justify; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span></strong><strong><span style="font-family:'Bookman Old Style'; ">(B/233/LS)</span></strong>
+			</p>
+			<h2 style="border-bottom:0.75pt solid #000000; padding-bottom:1pt; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">ABOUT US – ARCHITECTURAL DESIGN PROFILE </span></strong>
+			</h2>
+			<p style="margin-top:6pt; text-align:justify; line-height:16pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">Our team of 135 professionals provides multi-disciplinary Design Services having many verticals and capabilities apart from Architecture like Master Planning, 3D Visualization, Animation, </span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:16pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">Branding, Interior Design, BIM etc. for a wide range of projects such as Town planning, Institutional, I.T. Parks, Hospitality, Healthcare, Transportation, Residential, Commercial &amp; Retail. Our operations are carried out from our Head Office at Mumbai and branch offices at Pune, Hyderabad, New Delhi, Jaipur &amp; Jalgaon. </span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">To summarize, with our expertise and experience, we assure you to provide our best services in all stages right from the start to completion of the project and look forward to working with you in future for any of the above services.</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">We have also provided our Company Profile with all the details in it already for your reference with a list of our projects with contact details.</span>
+			</p>
+			<p class="NoSpacing" style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">WE POSSESS THE FOLLOWING LICENSES:</span>
+			</p>
+			<ul style="margin:0pt; padding-left:0pt; list-style-type:circle">
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">BMC Structural License No: STR/S/212</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">BMC surveyor’s License No: S/585/LS</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Mira Bhayander Municipal Corporation </span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Thane Municipal Corporation</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Navi Mumbai Municipal Corporation</span>
+				</li>
+			</ul>
+			<p class="NoSpacing" style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">WE ARE ALSO MEMBERS OF </span>
+			</p>
+			<ul style="margin:0pt; padding-left:0pt; list-style-type:circle">
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">American Concrete Institute USA</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">PEATA</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Indian Society of Structural Engineers (ISSE)</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Indian Concrete Institute</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Indian Institution of Valuers</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:39.95pt; text-align:justify; line-height:18pt; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Association of Structure Rehabilitation</span>
+				</li>
+			</ul>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">The name and business strength that has been earned by our organization today, is due to the quality and timely delivery of the services by our qualified and professionally equipped team, who have varied experience and knowledge of providing services to our clients to their satisfaction. With new modern technology and innovative ideas of the management, we try to create awareness and to keep the company hand to hand with the latest development of the modern-day world.</span>
+			</p>
+			<p style="margin-bottom:10pt; line-height:115%; font-size:11pt">
+				<br style="page-break-before:always; clear:both" />
+			</p>
+			<h2 style="border-bottom:0.75pt solid #000000; padding-bottom:1pt; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; font-variant:small-caps">PMC FOR REDEVELOPMENT OF SOCIETIES</span></strong>
+			</h2>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">We offer residential as well as commercial property redevelopment consultancy services. We undertake the entire responsibility from the structural audit, feasibility calculations to tender preparation, selection of the developer, architectural design inputs to the developer, monitoring and controlling, quality control and assistance in all technical matters of Redevelopment. We strive to create a process which is transparent and dispute free to safeguard the interest of the Society.</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">We also offer PMC services for interior projects as large projects demand the presence of a PMC to ensure monitoring and control of resources, costs etc.</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">We provide comprehensive architectural services which include conceptual and schematic design, design development and construction drawings, tender floating, and execution. We encourage the use of the latest building technology to better serve our clients.</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">Apart from the standard PMC services, we ensure that the entire planning process is handled from our end, ensure for RERA registration, and guide the society members over the quality of construction, project status and actual allocation of the floor area. Our team of architects, civil engineers and lawyers strive to make the process simple, transparent and dispute free.</span>
+			</p>
+			<p class="NoSpacing" style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">CLIMATE RESPONSIVE DESIGN</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">As architects we are responsible for providing an integrated and efficient approach to designing climate responsive buildings. We provide pleasant outdoor environments despite the extreme heat and amalgamate the different façades to respond directly to the environmental forces on each side and end up with a cohesive building with variations on each façade. The building is oriented in the east- west direction to take advantage of solar orientation and daylighting.</span>
+			</p>
+			<p style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">In Mumbai, we generally experience heavy rainfall and high humidity for more than 4 months. Our designs take maximum precaution to keep the south and west facades of the building protected from this phenomenon. Coupled with that, we also ensure adequate provision of natural light and ventilation, efficient circulation within the site and if required recycling of debris generated.</span>
+			</p>
+			<p class="NoSpacing" style="margin-top:6pt; text-align:justify; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">GOVERNMENT DIRECTIVE:</span>
+			</p>
+			<p style="margin-top:5pt; text-align:justify; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'; font-size:11pt">As per a Directive under section 79A of the MCS Act and Rules Housing Societies in Maharashtra by Chief Secretary Co-operation, Government of Maharashtra in January 2009, every society undergoing the process of redevelopment must appoint a Project Management Consultant to ease the process, reduce disputes and safeguard interest of the Society.</span>
+			</p>
+			<p class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">OUR AREAS OF EXPERTISE</span>
+			</p>
+			<ul style="margin:0pt; padding-left:0pt; list-style-type:circle">
+				<li class="NoSpacing" style="margin-top:5pt; margin-left:39.95pt; text-align:justify; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Redevelopment</span>
+					<ul style="margin-right:0pt; margin-left:0pt; padding-left:0pt; list-style-type:square">
+						<li class="NoSpacing" style="margin-top:5pt; margin-left:13.28pt; padding-left:7.97pt; font-family:serif">
+							<span style="font-family:'Bookman Old Style'">Architect &amp; Project Management Consultancy Services (APMC)</span>
+						</li>
+						<li class="NoSpacing" style="margin-top:5pt; margin-left:13.28pt; padding-left:7.97pt; font-family:serif">
+							<span style="font-family:'Bookman Old Style'">Architect, Project Development &amp; Management Consultancy Services (APDMC)</span>
+						</li>
+						<li class="NoSpacing" style="margin-top:5pt; margin-left:13.28pt; padding-left:7.97pt; font-family:serif">
+							<span style="font-family:'Bookman Old Style'">Legal Assistance</span>
+						</li>
+					</ul>
+				</li>
+				<li class="NoSpacing" style="margin-top:5pt; margin-left:39.95pt; text-align:justify; padding-left:2.6pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Repairs</span>
+					<ul style="margin-right:0pt; margin-left:0pt; padding-left:0pt; list-style-type:square">
+						<li class="NoSpacing" style="margin-top:5pt; margin-left:13.28pt; padding-left:7.97pt; font-family:serif">
+							<span style="font-family:'Bookman Old Style'">Structural Audits</span>
+						</li>
+						<li class="NoSpacing" style="margin-top:5pt; margin-left:13.28pt; padding-left:7.97pt; font-family:serif">
+							<span style="font-family:'Bookman Old Style'">Technical Survey</span>
+						</li>
+						<li class="NoSpacing" style="margin-top:5pt; margin-left:13.28pt; padding-left:7.97pt; font-family:serif">
+							<span style="font-family:'Bookman Old Style'">Consultancy for Repairs</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<h2 style="margin-top:5pt; line-height:18pt; border-bottom:0.75pt solid #000000; padding-bottom:1pt">
+				<strong><span style="font-family:'Bookman Old Style'; font-size:11pt; font-variant:small-caps">BASIC STAGES OF THE WORK</span></strong>
+			</h2>
+			<ol class="awlist1" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:25.67pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">PREPARATORY STAGE</span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Preparing feasibility report with respect to present government policy about utilization of FSI/TDR.
+				</li>
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Recommending the list of amenities, extra area, corpus fund etc., and suggesting block designs of the building a<span style="color:#626060">s </span>per utilization of FSI/TOR and preparing a detailed report to the society.
+				</li>
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Scrutinizing the existing documents held with the Society &amp; ascertaining additional documents needed for Re-development, to liaise with the Authorities to obtain the same.
+				</li>
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Vetting of Plans/Drawings/Documents as necessary in co<span style="color:#626060">-</span>operation with the Builder and to obtain approval from the Authorities for Re­development.
+				</li>
+			</ol>
+			<ol start="2" class="awlist2" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:21.93pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">PRE-TENDERING STAGE/APPOINTMENT OF DEVELOPER </span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Listing down the requirement of each member for the final parameters for the tender conditions as per utilization of FSI/TDR as approved by the Authorities and preparing a detailed report to the society before inviting Tender from Builders.
+				</li>
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Preparing draft tender documents, discussing the same with the committee &amp; finally obtaining a go ahead from the committee for floating the Tender for Builders.
+				</li>
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Inviting the tenders (Technical and Commercial) from various approved Builders, doing the technical evaluation, preparing comparison statement, and submitting the same to committee members.
+				</li>
+				<li style="margin-top:5pt; margin-left:50.39pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.11pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Conducting joint meetings with the short-listed Builders along with the committee members and finalizing the most suitable Builder for the Project.
+				</li>
+			</ol>
+			<ol start="3" class="awlist3" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:18.19pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">PRE-CONSTRUCTION STAGE</span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt; color:#595959">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Drafting Letter of Intent based on terms negotiated with the selected</span><span style="font-family:'Bookman Old Style'; color:#000000"> </span><span style="font-family:'Bookman Old Style'; color:#3b3b3b">Builder.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining of detailed plane table survey in order to work out the area of entire plot precisely and accurately.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Approving the plans prepared by the Builder keeping in mind the interest of society only.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Preparing milestone chart so as to ensure timely completion in consultation with the Builder.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining preparation of all detailed Electrical and Plumbing layouts by</span><span style="font-family:'Bookman Old Style'"> </span><span style="font-family:'Bookman Old Style'; color:#3b3b3b">Architect of Builder.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining Preparation of all working drawings and Structural drawings by Architect of Builder</span><span style="font-family:'Bookman Old Style'; color:#595959">.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Scrutinizing Soil Investigation reports to confirm the required mater</span><span style="font-family:'Bookman Old Style'; color:#595959">i</span><span style="font-family:'Bookman Old Style'; color:#3b3b3b">al or construction techniques at the time of actual work of foundation in consultation with the Builder.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining Submission layout proposed and its approval.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:47.85pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:4.65pt; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining Layout approval.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:52.5pt; text-align:justify; line-height:130%; widows:0; orphans:0; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining Submission Building files.</span>
+				</li>
+				<li style="margin-top:5pt; margin-left:52.5pt; text-align:justify; line-height:130%; widows:0; orphans:0; font-family:Calibri; font-size:11pt">
+					<span style="font-family:'Bookman Old Style'; color:#3b3b3b">Ascertaining Obtaining of I.O.D / C.C. etc.</span>
+				</li>
+			</ol>
+			<ol start="4" class="awlist4" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:17.96pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">CONSTRUCTION STAGE</span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-top:5pt; margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Overall co-ordination with the society on technical and financial matters and co<span style="color:#595959">-</span>ordination with Builder as may be required and between various engineering disciplines<span style="color:#595959">.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Maintaining complete co<span style="color:#595959">-</span>ordination on entire project.
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Preparation and issue of a project co-ordination procedure documents.
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Preparation and issue of change notices, indicating any change in project<span style="color:#000000"> </span>which will affect costs<span style="color:#595959">, </span>planning etc.
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					To have overall co-ordination with the Society, Design Architects, Builder with respect to the Municipal Drawings so as to ensure smooth progress of the Municipal/MHADA follow up.
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3b3b3b">
+					Monitoring Work Progress as per the Agreed Construction Schedule.
+				</li>
+			</ol>
+			<p style="margin-top:5pt; text-align:justify; line-height:130%; widows:0; orphans:0; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; color:#3b3b3b">&#xa0;</span></strong>
+			</p>
+			<ol start="5" class="awlist5" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:21.7pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">DAY TO DAY SITE SUPERVISION &amp;, QUALITY CONTROL</span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-top:5pt; margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Supervision by your engineer.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Periodical site visit in connection with works by us (at least once in a week) or our project engineers at least 2 times a week and providing corr</span><span style="color:#565656">e</span><span style="color:#3f3f3f">ctiv</span><span style="color:#565656">e s</span><span style="color:#3f3f3f">upervision.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Giving instruction regarding method of carrying out the construction from the workmanship and materials consider</span><span style="color:#565656">a</span><span style="color:#3f3f3f">tion issue written orders for rectification of defective works (if any)</span><span style="color:#565656">.</span>
+				</li>
+			</ol>
+			<ol start="6" class="awlist6" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:17.96pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">CONTROLLING UPON THE WORK PROGRESS </span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-top:5pt; margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Pr</span><span style="color:#565656">e</span><span style="color:#3f3f3f">par</span><span style="color:#565656">a</span><span style="color:#3f3f3f">tion of milestone chart and stri</span><span style="color:#565656">c</span><span style="color:#3f3f3f">tly implementing the same. Updating the activities in case of delay to m</span><span style="color:#565656">e</span><span style="color:#3f3f3f">et</span><span style="color:#565656"> </span><span style="color:#3f3f3f">target </span><span style="color:#565656">c</span><span style="color:#3f3f3f">ompleti</span><span style="color:#565656">o</span><span style="color:#3f3f3f">n time.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Periodical meeting with the concerned Builder so as to have a first-hand report about their pr</span><span style="color:#565656">a</span><span style="color:#3f3f3f">ctical difficulties if </span><span style="color:#565656">a</span><span style="color:#3f3f3f">ny and suggesting to th</span><span style="color:#565656">e</span><span style="color:#3f3f3f">m alternativ</span><span style="color:#565656">e </span><span style="color:#3f3f3f">procedure to solve the same in the best interests of th</span><span style="color:#565656">e </span><span style="color:#3f3f3f">so</span><span style="color:#565656">c</span><span style="color:#3f3f3f">iety.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:49.84pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">To ensure that Builder incorporates a penalty clause in the works with ea</span><span style="color:#565656">c</span><span style="color:#3f3f3f">h sub-Build</span><span style="color:#565656">er </span><span style="color:#3f3f3f">to ensure timely completion.</span>
+				</li>
+			</ol>
+			<ol start="7" class="awlist7" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:14.23pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">OVERALL CO-ORDINATION WITH OTHER AGENCIES INVOLVED</span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-top:5pt; margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3f3f3f">
+					Builders/Solicitors.
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3f3f3f">
+					Architects.
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Piling Buil</span><span style="color:#565656">d</span><span style="color:#3f3f3f">ers and geo technical consultants</span><span style="color:#707070">.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">R.C.C</span><span style="color:#565656">. </span><span style="color:#3f3f3f">Consultants/Electrical Consultant/Plumbing Consultant.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">Lift Ag</span><span style="color:#565656">e</span><span style="color:#3f3f3f">ncy</span><span style="color:#565656">/</span><span style="color:#3f3f3f">Landscaping consultants.</span>
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt">
+					<span style="color:#3f3f3f">And any other </span><span style="color:#565656">a</span><span style="color:#3f3f3f">gencies related to the said project.</span>
+				</li>
+			</ol>
+			<ol start="8" class="awlist8" style="margin:0pt; padding-left:0pt">
+				<li class="NoSpacing" style="margin-top:5pt; text-align:justify; line-height:130%; font-family:'Bookman Old Style'; font-weight:bold; font-variant:small-caps; letter-spacing:0.25pt; color:#4f81bd; list-style-position:inside">
+					<span style="width:10.49pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span class="IntenseReference">END OF CONSTRUCTION STAGE </span>
+				</li>
+			</ol>
+			<ol style="margin:0pt; padding-left:0pt">
+				<li class="ListParagraph" style="margin-top:5pt; margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3f3f3f">
+					To ascertain obtaining of various Completion certificates as stated by authorities.
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3f3f3f">
+					To ascertain obtaining of various Completion certificates, permanent water connection and finally BCC.
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3f3f3f">
+					Preparation of 'as built' drawings in consultation with Builder.
+				</li>
+				<li class="ListParagraph" style="margin-left:50.54pt; text-align:justify; line-height:130%; widows:0; orphans:0; padding-left:2.66pt; font-family:'Bookman Old Style'; font-size:11pt; color:#3f3f3f">
+					Preparing completion report at the end of the project.
+				</li>
+			</ol>
+			<p class="ListParagraph" style="margin-left:53.2pt; text-align:justify; line-height:130%; widows:0; orphans:0; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'; color:#3f3f3f">&#xa0;</span>
+			</p>
+			<h2 style="border-bottom:0.75pt solid #000000; padding-bottom:1pt; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; font-variant:small-caps">QUOTATION FOR APPOINTMENT AS A PROJECT MANAGEMENT CONSULTANT</span></strong>
+			</h2>
+			<p style="margin-top:5pt; margin-bottom:6pt; text-align:justify; line-height:120%; widows:0; orphans:0; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">As per our understanding of the plot areas and number of existing members we like to quote of our fees which cover all activities from preparation, start of the project of redevelopment up to completion and having over of the project to the society including obtaining final OC from the BMC/Concerned authorities shall be as follows:</span>
+			</p>
+			<p style="margin-top:5pt; margin-bottom:6pt; text-align:justify; line-height:120%; widows:0; orphans:0; font-size:11pt">
+				<strong><span style="font-family:'Bookman Old Style'; ">All the fees and expenses bear by the developer</span></strong><span style="font-family:'Bookman Old Style'"> </span><strong><span style="font-family:'Bookman Old Style'; ">and the total fees shall be </span></strong><strong><u><span style="font-family:'Bookman Old Style'; ">2%</span></u></strong><strong><span style="font-family:'Bookman Old Style'; "> nothing will take form society</span></strong><span style="font-family:'Bookman Old Style'"> </span><strong><span style="font-family:'Bookman Old Style'; ">of the total construction cost</span></strong><span style="font-family:'Bookman Old Style'"> of the project inclusive of the amount mentioned in Phase I &amp; Phase II (excluding GST 18%). The stage wise disbursal of the fees in Phase I &amp; Phase II are stated as follows:</span>
+			</p>
+			<p style="margin-top:5pt; margin-bottom:6pt; text-align:justify; line-height:120%; widows:0; orphans:0; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<p style="margin-top:5pt; margin-bottom:6pt; text-align:justify; line-height:120%; widows:0; orphans:0; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<table style="width:497.9pt; border-collapse:collapse">
+				<tr style="height:26.65pt">
+					<td colspan="7" rowspan="2" style="width:475.85pt; border:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span class="IntenseReference" style="font-family:'Bookman Old Style'">MODE OF PAYMENT</span><br /><strong><span style="font-family:'Bookman Old Style'; ">All the fees and expenses bear by the developer</span></strong>
+						</p>
+					</td>
+					<td style="vertical-align:top">
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td rowspan="2" style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Sr. No.</span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:40.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Plot Area (In Sq.Mtr.) </span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:44.9pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Plot Area (In Sq.Ft.) </span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:46.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">No. Of Members</span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Scope of work</span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:66.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Distribution Of Fees </span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:44.65pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Remarks </span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td colspan="7" style="width:475.85pt; border:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span></strong><strong><span style="font-family:'Bookman Old Style'; ">Phase I</span></strong>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td rowspan="10" style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">1</span>
+						</p>
+					</td>
+					<td rowspan="14" style="width:40.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="text-align:center; font-size:11pt">
+							<br /><br /><br /><br /><br /><br /><span style="font-family:'Bookman Old Style'">1,826</span>
+						</p>
+					</td>
+					<td rowspan="14" style="width:44.9pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="text-align:center; font-size:11pt">
+							<br /><br /><br /><br /><br /><br /><span style="font-family:'Bookman Old Style'">19,655.06</span>
+						</p>
+					</td>
+					<td rowspan="14" style="width:46.1pt; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.4pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">Appointment </span></strong>
+						</p>
+					</td>
+					<td style="width:66.1pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">25000</span>
+						</p>
+					</td>
+					<td rowspan="14" style="width:44.65pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">STAGE I - Preparation </span></strong>
+						</p>
+					</td>
+					<td style="width:66.1pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td rowspan="2" style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Re-Development Guidelines as per G.R. Assessment of the proposals</span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:66.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Surveying the land, buildings and flats </span>
+						</p>
+					</td>
+					<td style="width:66.1pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Plot survey (Up to 4000 Sqm) including Gi Survey</span>
+						</p>
+					</td>
+					<td style="width:66.1pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">40000</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Structural Survey per Sq.Ft. (Rs. 3 on Actual Carpet)</span>
+						</p>
+					</td>
+					<td style="width:66.1pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">58965</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td rowspan="3" style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Preparation of project Feasibility report considering the suggestions of the members and the area to be made available, also including DP remarks &amp; City Survey Plans</span>
+						</p>
+					</td>
+					<td rowspan="3" style="width:66.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">25000</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:23.2pt">
+					<td style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">2</span>
+						</p>
+					</td>
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">STAGE II - Pre-Tendering Construction/Developer Appointment</span></strong>
+						</p>
+					</td>
+					<td style="width:66.1pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:top">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">100000</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td rowspan="3" style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td rowspan="3" style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Total (Phase I)</span><br /><span style="font-family:'Bookman Old Style'">One lakh Ninety-Five Thousand Six </span><br /><span style="font-family:'Bookman Old Style'">Hundred Seventy-Five Only</span>
+						</p>
+					</td>
+					<td rowspan="3" style="width:66.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">2,48,965</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td colspan="7" style="width:475.85pt; border:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span></strong><strong><span style="font-family:'Bookman Old Style'; ">Phase II</span></strong>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">3</span>
+						</p>
+					</td>
+					<td colspan="3" rowspan="5" style="width:152.9pt; border:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">STAGE III</span></strong><span style="font-family:'Bookman Old Style'"> - Pre-Construction </span>
+						</p>
+					</td>
+					<td rowspan="3" style="width:66.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">As per 2% of actual Construction</span>
+						</p>
+					</td>
+					<td rowspan="5" style="width:44.65pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">4</span>
+						</p>
+					</td>
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">STAGE IV</span></strong><span style="font-family:'Bookman Old Style'"> - Construction</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">5</span>
+						</p>
+					</td>
+					<td style="width:152.6pt; border-right:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="font-size:11pt">
+							<strong><span style="font-family:'Bookman Old Style'; ">STAGE V</span></strong><span style="font-family:'Bookman Old Style'"> - Post Construction</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td rowspan="2" style="width:16.3pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:152.6pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">Total</span><span style="font-family:'Bookman Old Style'">&#xa0; </span>
+						</p>
+					</td>
+					<td rowspan="2" style="width:66.1pt; border-right:0.75pt solid #000000; border-left:0.75pt solid #000000; border-bottom:0.75pt solid #000000; padding-top:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">As per actuals</span>
+						</p>
+					</td>
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:middle">
+						<p style="font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:12.1pt">
+					<td style="padding-top:0.75pt; padding-right:5.4pt; padding-left:5.4pt; vertical-align:bottom">
+						<p style="text-align:center; font-size:11pt">
+							<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+						</p>
+					</td>
+				</tr>
+				<tr style="height:0pt">
+					<td style="width:28.65pt">
+					</td>
+					<td style="width:53.95pt">
+					</td>
+					<td style="width:65.6pt">
+					</td>
+					<td style="width:60.1pt">
+					</td>
+					<td style="width:163.4pt">
+					</td>
+					<td style="width:81.2pt">
+					</td>
+					<td style="width:58.55pt">
+					</td>
+					<td style="width:11.1pt">
+					</td>
+				</tr>
+			</table>
+			<p class="NoSpacing" style="margin-top:5pt; margin-bottom:6pt; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<p class="NoSpacing" style="margin-top:5pt; margin-bottom:6pt; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<p class="NoSpacing" style="margin-top:5pt; margin-bottom:6pt; line-height:18pt">
+				<span class="IntenseReference" style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<h2 style="margin-top:6pt; margin-bottom:12pt; line-height:18pt; border-bottom:0.75pt solid #000000; padding-bottom:1pt">
+				<strong><span style="font-family:'Bookman Old Style'; font-size:11pt; font-variant:small-caps">GENERAL GUIDELINES FOR REDEVELOPMENT PROCESS</span></strong>
+			</h2>
+			<table style="width:496.9pt; border-collapse:collapse">
+				<thead>
+					<tr style="height:13.75pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<strong><span style="font-family:'Bookman Old Style'; ">STEPS</span></strong>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<strong><span style="font-family:'Bookman Old Style'; ">PROCESS</span></strong>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<strong><span style="font-family:'Bookman Old Style'; ">ACTION BY</span></strong>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; text-align:center; line-height:18pt">
+								<strong><span style="font-family:'Bookman Old Style'; ">REMARKS</span></strong>
+							</p>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr style="height:48.45pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">01</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Structural Audit Report</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Licensed Structural Engineer</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Structural Repair &amp; Costing Report</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">&amp; Recommendation for the</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Redevelopment of Society</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:29.35pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">02</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Resolution for</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Redevelopment</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Managing Committee</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Special General Body Meeting</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">03</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Fresh Election</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Nomination for the MC/RDC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:13.75pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">04</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">M20 Form</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Managing Committee</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">To be submitted to Registrar</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.45pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">05</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Consent</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Special General Body Meeting</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Affidavit cum Declaration on Rs.100/- stamp paper</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">06</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Appointment of</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">MC/RDC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Appointment from minimum 3</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">quotation &amp; announced in SGM</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">07</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Documentations</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">MC/RDC/Architect/ PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">City Survey Plan/ DP Remarks/</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Carpet Areas/ PR Card.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.5pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">08</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Feasibility Report</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Available only for inspection to</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">GB for at least 7 days.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">09</span>
+							</p>
+						</td>
+						<td rowspan="2" style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Tender Document</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/MC/RDC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Copy to be Circulated to GB for</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">suggestions within 7 days</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:31.8pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">10</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Discussion/Recommendations in SGM</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.5pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">11</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Paper Add.</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Paper ads for bidder invitation in</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">at least 3 news paper</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:41.3pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">12</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Release of Tender</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Tender collection with </span><u><span style="font-family:'Bookman Old Style'; ">Non-</span></u><span style="font-family:'Bookman Old Style'"> </span><u><span style="font-family:'Bookman Old Style'; ">Refundable Fees</span></u><span style="font-family:'Bookman Old Style'"> payable to Society.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:19.95pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">13</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Tender Clarification</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">At least 3 days for any queries</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:55.05pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">14</span>
+							</p>
+						</td>
+						<td rowspan="2" style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Tender Submission</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:125.5pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td style="width:211.85pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Submission of Commercial &amp; Technical Bid. The list of Bidders/Developers to be put up in Society Notice Board.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.5pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">15</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Special General Body Meeting</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Announcement of commercial Offer.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">16</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Comparative</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Statement</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">To be Submitted to MC &amp; Discussed in SGM.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">17</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Short listing/</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Elimination/ Interview</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Interview of Short listed Developers with MC/RDC</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">18</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Final Five</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Special General Body Meeting</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">To be announce in SGM &amp;</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Prepare for Site Visits &amp; Presentation by Developers</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">19</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Site</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Visits/Presentation</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Special General Body Meeting</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">MC/RDC co-ordinates the Site</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Visits.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">20</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Grading</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Architect/PMC</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Grading Based on various</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Parameters.</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">21</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Informal Voting</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Informal meeting for consent</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Preparation for final voting in front</span>
+							</p>
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">of Registrar</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:27.55pt">
+						<td style="width:55.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">22</span>
+							</p>
+						</td>
+						<td style="width:100.75pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Developer appointment</span>
+							</p>
+						</td>
+						<td style="width:124.05pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:0pt; text-align:center; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">Registrar/Architect/PMC (Video Recording)</span>
+							</p>
+						</td>
+						<td colspan="2" style="width:213.3pt; border:0.75pt solid #000000">
+							<p class="TableParagraph" style="margin-left:9pt; text-indent:-4.5pt; line-height:18pt">
+								<span style="font-family:'Bookman Old Style'">In presence of PMC</span>
+							</p>
+						</td>
+					</tr>
+				</tbody>
+				<tr style="height:0pt">
+					<td style="width:55.8pt">
+					</td>
+					<td style="width:101.5pt">
+					</td>
+					<td style="width:124.8pt">
+					</td>
+					<td style="width:1.45pt">
+					</td>
+					<td style="width:212.6pt">
+					</td>
+				</tr>
+			</table>
+			<p class="BodyText" style="margin-top:0.1pt; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">&#xa0;</span>
+			</p>
+			<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+				<span style="font-family:'Bookman Old Style'">Note: The final steps no 22: Society need to produce all the minutes of SGM regarding redevelopment process, Account Audit Report, Appointment of Architect/PMC, M20 forms, List of Eligible Members, ID Proof by means of self-attestation.</span>
+			</p>
+			<h2 style="margin-top:6pt; margin-bottom:12pt; line-height:18pt; border-bottom:0.75pt solid #000000; padding-bottom:1pt">
+				<strong><span style="font-family:'Bookman Old Style'; font-size:11pt; ">RECENT REDEVELOPMENT PROJECTS</span></strong>
+			</h2>
+			<table style="width:438.1pt; margin-right:auto; margin-left:auto; border:0.75pt solid #808080; border-collapse:collapse">
+				<thead>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<strong><span style="font-family:'Bookman Old Style'; ">SOCIETY</span></strong>
+							</p>
+						</td>
+						<td style="width:112.5pt; border-right:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<strong><span style="font-family:'Bookman Old Style'; ">STAGE</span></strong>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<strong><span style="font-family:'Bookman Old Style'; ">LOCATION</span></strong>
+							</p>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr style="height:39.15pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">One Avighna Park</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Nine Avighna Park</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">(Nish Developers Pvt. Ltd.)</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Completed</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Currey Road, Mumbai</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Satra Park</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Completed</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Borivali (W)</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Riddhi Siddhi Construction</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Completed</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Malad (E)</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p style="margin-top:0.05pt; margin-left:5.15pt; widows:0; orphans:0; font-size:11pt">
+								<span style="font-family:'Bookman Old Style'">17 Police Housing </span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Construction of 588 Quarters</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Ongoing</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Goregaon (E)</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Purab Paschim CHSL + Ila Darshan CHSL + Blue Diamond CHSL</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Feasibility + Tendering</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Andheri (W)</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Bijlee CHSL</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Construction</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Kalina,</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Santacruz (E)</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">MHADA 19 Police Housing </span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Appointed</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">19 locations</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:21.5pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Ambedkar Nagar (Cluster of 6 Societies), Worli, 206 members</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Tendering</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Worli,</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Mumbai</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:39.2pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">BDD Chawls, Worli (MHADA)</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">121 Buildings of 80 No. of tenants in each</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Construction</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Worli,</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Mumbai</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:39.15pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Maharashtra State Police Housing Corporation of India588 staff quarters</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Construction</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">SRPF, Goregaon, Mumbai</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:51.25pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Maharashtra State Police Housing Corporation of India (355 staff quarters),</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Administrative Building &amp; Nizampur Police Station</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Construction</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Bhiwandi,</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Thane</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:39.2pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Redevelopment of Siddharth Hospital (MCGM)</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Pre-Construction</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Goregaon (W), Mumbai</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:29.3pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Global Arena</span>
+							</p>
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">(Pavitra GruhSahay LLP)</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Post-Construction</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Tivri, Naigaon (E), Vasai</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:18.6pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Ramanand CHSL</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Vetting Design</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080; border-bottom:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Vileparle (E)</span>
+							</p>
+						</td>
+					</tr>
+					<tr style="height:20.35pt">
+						<td style="width:226.15pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt">
+								<span style="font-family:'Bookman Old Style'">Triveni</span>
+							</p>
+						</td>
+						<td style="width:112.5pt; border-top:0.75pt solid #808080; border-right:0.75pt solid #808080; border-left:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Feasibility</span>
+							</p>
+						</td>
+						<td style="width:96.45pt; border-top:0.75pt solid #808080; border-left:0.75pt solid #808080">
+							<p class="TableParagraph" style="margin-top:0.15pt; margin-left:5.15pt; text-align:center">
+								<span style="font-family:'Bookman Old Style'">Malad (E)</span>
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div style="margin-top:2pt; border-bottom:0.75pt solid #000000; clear:both">
+				<h2 style="margin-top:0pt; line-height:18pt">
+					<strong><span style="font-family:'Bookman Old Style'; font-size:11pt; ">&#xa0;</span></strong>
+				</h2>
+				<h2 style="margin-top:0pt; line-height:18pt; padding-bottom:1pt">
+					<strong><span style="font-family:'Bookman Old Style'; font-size:11pt; ">OTHER TERMS AND CONDITIONS</span></strong>
+				</h2>
+			</div>
+			<p style="margin-top:6pt; margin-left:28.35pt; text-indent:-28.3pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">1.</span><span style="width:17.96pt; text-indent:0pt; font-family:'Bookman Old Style'; display:inline-block">&#xa0;</span><span style="font-family:'Bookman Old Style'">Society shall intend to complete the redevelopment as early as practically possible, and all efforts shall be made by the PMC to expedite the process. Towards this, we shall finalize time bound program for completion of various stages in line with the expectation of the members and practicality and do all that is necessary to ensure timely completion as per agreed schedule.</span>
+			</p>
+			<p style="margin-top:6pt; margin-left:28.35pt; text-indent:-28.3pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">2.</span><span style="width:17.96pt; text-indent:0pt; font-family:'Bookman Old Style'; display:inline-block">&#xa0;</span><span style="font-family:'Bookman Old Style'">Clearance for the works shall be given stage-wise. We will commence the work for the subsequent stages, only after satisfactory completion of the earlier stage and written communication to that effect is obtained from the society to commence the next stage.</span>
+			</p>
+			<p style="margin-top:6pt; margin-left:28.35pt; text-indent:-28.3pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">3.</span><span style="width:17.96pt; text-indent:0pt; font-family:'Bookman Old Style'; display:inline-block">&#xa0;</span><span style="font-family:'Bookman Old Style'">We accept that this rate quoted is valid for the period of 3 years from this date and after 3 years, escalation of 10% per year will be applicable.</span>
+			</p>
+			<p style="margin-top:6pt; margin-left:28.35pt; text-indent:-28.3pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">4.</span><span style="width:17.96pt; text-indent:0pt; font-family:'Bookman Old Style'; display:inline-block">&#xa0;</span><span style="font-family:'Bookman Old Style'">In case of termination, the society will ensure that that payment due to the PMC at the respective phase will be made within 15 days of notice of termination.</span>
+			</p>
+			<p style="margin-top:6pt; margin-left:28.35pt; text-indent:-28.3pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">5.</span><span style="width:17.96pt; text-indent:0pt; font-family:'Bookman Old Style'; display:inline-block">&#xa0;</span><span style="font-family:'Bookman Old Style'">Feasibility report as well as the Tender document will be the sole ownership of the society. PMC will provide the commercial quote for each phase and sub phase separately and the same will remain valid till execution of the contracts.</span>
+			</p>
+			<p style="margin-top:6pt; margin-left:28.35pt; text-indent:-28.3pt; text-align:justify; font-size:11pt">
+				<span style="font-family:'Bookman Old Style'">6.</span><span style="width:17.96pt; text-indent:0pt; font-family:'Bookman Old Style'; display:inline-block">&#xa0;</span><span style="font-family:'Bookman Old Style'">Overall co-ordination with other agencies involved will be such as:</span>
+			</p>
+			<ul style="margin:0pt; padding-left:0pt; list-style-type:circle">
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Our own Architectural Team (Design and Liasioning)</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Legal Consultant</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">RCC Consultant</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Contractors, Piling Contactors, Lift Consultants</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">Geo Technical Consultants</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">MEP Consultants</span>
+				</li>
+				<li class="NoSpacing" style="margin-left:43.1pt; text-align:justify; padding-left:10.9pt; font-family:serif">
+					<span style="font-family:'Bookman Old Style'">MOEF</span>
+				</li>
+			</ul>
+			<p class="NoSpacing" style="margin-top:6pt; margin-bottom:6pt; line-height:18pt">
+				<span style="font-family:'Bookman Old Style'">Any other agencies as may be required</span>
+			</p>
+			<div style="clear:both">
+				<p class="Footer" style="text-align:right; border-top:0.75pt solid #d9d9d9; padding-top:1pt">
+					1 | <span style="letter-spacing:3pt; color:#7f7f7f">Page</span>
+				</p>
+			</div>
+		</div>
+	<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0">Converted to HTML with WordToHTML.net</a></p>
+</body>
+</html>

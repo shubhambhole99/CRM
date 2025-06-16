@@ -1,0 +1,63 @@
+import React, { useState } from 'react';
+import * as XLSX from 'xlsx';
+
+const ExcelSheetPreviewer = () => {
+  const [sheetNames, setSheetNames] = useState([]);
+  const [sheetsData, setSheetsData] = useState({});
+  const [activeSheet, setActiveSheet] = useState('');
+
+  const handleFileUpload = (e) => {
+    const file = e.target.files[0];
+    const reader = new FileReader();
+
+    reader.onload = (evt) => {
+      const bstr = evt.target.result;
+      const wb = XLSX.read(bstr, { type: 'binary' });
+
+      const allSheets = {};
+      wb.SheetNames.forEach((name) => {
+        const ws = wb.Sheets[name];
+        allSheets[name] = XLSX.utils.sheet_to_json(ws, { header: 1 });
+      });
+
+      setSheetNames(wb.SheetNames);
+      setSheetsData(allSheets);
+      setActiveSheet(wb.SheetNames[0]); // default to first sheet
+    };
+
+    reader.readAsBinaryString(file);
+  };
+
+  return (
+    <div>
+      <input type="file" accept=".xlsx,.xls" onChange={handleFileUpload} />
+
+      {sheetNames.length > 0 && (
+        <div style={{ marginTop: '20px' }}>
+          <label>Select Sheet: </label>
+          <select onChange={(e) => setActiveSheet(e.target.value)} value={activeSheet}>
+            {sheetNames.map((name) => (
+              <option key={name} value={name}>{name}</option>
+            ))}
+          </select>
+        </div>
+      )}
+
+      {activeSheet && sheetsData[activeSheet] && (
+        <table border="1" style={{ marginTop: '20px' }}>
+          <tbody>
+            {sheetsData[activeSheet].map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                {row.map((cell, colIndex) => (
+                  <td key={colIndex}>{cell}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </div>
+  );
+};
+
+export default ExcelSheetPreviewer;

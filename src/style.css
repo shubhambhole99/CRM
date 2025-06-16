@@ -1,0 +1,94 @@
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+body{
+    /* filter:invert(80%) hue-rotate(270deg); */
+}
+.my-custom-button {
+    /* background-color: #ff5733 !important; */
+    /* border-color: #ff5733 !important; */
+    border-color: rgb(157, 250, 157) !important;
+
+    color: white !important;
+  }
+
+ .dropdown-toggle{
+     /* border: 1px solid aqua !important; */
+     /* color: aqua !important; */
+     /* background-color: aqua !important; */
+
+}
+.dropdown-toggle::after {
+    border-top: 5px solid white !important; /* Changes arrow color to red */
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    content: "";
+    display: inline-block;
+    /* margin-left: 8px; Adjust spacing */
+    vertical-align: middle;
+
+}
+.dropdown-menu {
+    position: absolute !important; /* Ensures dropdown stays above other elements */
+    border: 1px solid red;
+    z-index: 1050 !important; /* Bootstrap default z-index for dropdowns */
+}
+
+.dropdown-item{
+    /* border: 1px solid red; */
+    z-index: 3 !important;
+    /* background-color: red !important; */
+    /* color: red !important; */
+
+}
+
+  /*
+  dropdown-toggle-split btn btn-primary */
+.custom-split-button{
+}
+section{
+    /* border: 1px solid red; */
+}
+
+.c{
+    /* background-color: azure; */
+}
+
+.collapse-close{
+    /* background-color: cyan; */
+}
+.modal{
+    /* overflow: scroll; */
+}
+.show{
+    /* overflow: auto; */
+
+}
+.fade{
+    /* overflow: scroll; */
+
+}
+td {
+    /* border: 1px solid black !important; */
+}
+td, th {
+border: 1px solid #000;
+padding: 8px;
+text-align: center;
+}
+
+.modal-body{
+
+}
+
+.modal-dialog{
+    width: max-content;
+    min-width: 700px;
+    position: absolute !important;
+    left: 10% !important; 
+}

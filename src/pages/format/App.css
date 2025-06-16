@@ -1,0 +1,28 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  margin-left: 10px;
+}
+
+
+
+/* Add this to your App.css or style file */
+.preview-cell {
+border: 1px solid #000; /* Border to simulate a table cell */
+/* text-align: center; Center the content */
+padding: 8px; /* Padding for better spacing */
+min-width: 100px; /* Ensure cells have a minimum width */
+}
+
+table {
+border-collapse: collapse; /* Ensure borders between cells collapse into one */
+}
+

@@ -1,0 +1,217 @@
+----Projects
+Search funcitonality in Create project
+Fix Edit
+
+----Tasks
+
+// "start": "react-scripts start" ,
+    // "start": "webpack-dev-server --hot" ,
+    // "start": "react-scripts --openssl-legacy-provider start",
+
+use older react-redux version "react-redux": "^7.2.8",
+
+
+--Invoice
+onchange file after submitting doesnt go
+
+
+All sections should have isDisabled and previous Urls
+All sections should have 100 width on mobile
+
+
+Accordions
+: 
+{path: '/components/accordions'}
+Alerts
+: 
+{path: '/components/alerts'}
+Badges
+: 
+{path: '/components/badges'}
+Billing
+: 
+{path: '/examples/billing'}
+BootstrapTables
+: 
+{path: '/tables/bootstrap-tables'}
+Breadcrumbs
+: 
+{path: '/components/breadcrumbs'}
+Buttons
+: 
+{path: '/components/buttons'}
+Client
+: 
+{path: '/projectss/:id'}
+Contact
+: 
+{path: '/contact/contact'}
+CreateBucket
+: 
+{path: '/buckets/createBucket'}
+CreateCredit
+: 
+{path: '/billing/createBill'}
+CreateFormat
+: 
+{path: '/format/create'}
+CreateInvoice
+: 
+{path: '/billing/createinvoice'}
+CreateNode
+: 
+{path: '/correspondence/create'}
+CreateProjects
+: 
+{path: '/projects/createProjects'}
+CreateTasks
+: 
+{path: '/tasks/createTasks'}
+DashboardOverview
+: 
+{path: '/dashboard/overview'}
+DocsBuild
+: 
+{path: '/documentation/build-tools'}
+DocsChangelog
+: 
+{path: '/documentation/changelog'}
+DocsDownload
+: 
+{path: '/documentation/download'}
+DocsFolderStructure
+: 
+{path: '/documentation/folder-structure'}
+DocsLicense
+: 
+{path: '/documentation/license'}
+DocsOverview
+: 
+{path: '/documentation/overview'}
+DocsQuickStart
+: 
+{path: '/documentation/quick-start'}
+ForgotPassword
+: 
+{path: '/examples/forgot-password'}
+Forms
+: 
+{path: '/components/forms'}
+Invoice
+: 
+{path: '/examples/invoice'}
+Lock
+: 
+{path: '/examples/lock'}
+Modals
+: 
+{path: '/components/modals'}
+Navbars
+: 
+{path: '/components/navbars'}
+Navs
+: 
+{path: '/components/navs'}
+NotFound
+: 
+{path: '/examples/404'}
+Pagination
+: 
+{path: '/components/pagination'}
+Popovers
+: 
+{path: '/components/popovers'}
+Progress
+: 
+{path: '/components/progress'}
+Question
+: 
+{path: '/projects/question'}
+Questions
+: 
+{path: '/format/questions'}
+ResetPassword
+: 
+{path: '/examples/reset-password'}
+ServerError
+: 
+{path: '/examples/500'}
+Service
+: 
+{path: '/projects/editprojects'}
+Services
+: 
+{path: '/services/services'}
+Settings
+: 
+{path: '/settings'}
+Signin
+: 
+{path: '/sign-in'}
+Signup
+: 
+{path: '/sign-up'}
+Tables
+: 
+{path: '/components/tables'}
+Tabs
+: 
+{path: '/components/tabs'}
+Testimonial
+: 
+{path: '/about/testimonial'}
+Toasts
+: 
+{path: '/components/toasts'}
+Tooltips
+: 
+{path: '/components/tooltips'}
+Transactions
+: 
+{path: '/transactions'}
+Upgrade
+: 
+{path: '/upgrade'}
+Uploadblog
+: 
+{path: '/blog/uploadblog'}
+ViewBucket
+: 
+{path: '/buckets/viewBucket'}
+ViewContacts
+: 
+{path: '/contacts'}
+ViewNode
+: 
+{path: '/correspondence/view'}
+ViewProjects
+: 
+{path: '/projects/:id'}
+ViewTasks
+: 
+{path: '/tasks/viewTasks'}
+Widgets
+: 
+{path: '/widgets'}
+WidgetsComponent
+: 
+{path: '/components/widgets'}
+createConsolidated
+: 
+{path: '/billing/createConsolidated'}
+viewBills
+: 
+{path: '/billing/viewBills'}
+viewRoutes
+: 
+{path: '/routes/viewRoutes'}
+
+
+
+
+
+              <>
+   
+
+
+   

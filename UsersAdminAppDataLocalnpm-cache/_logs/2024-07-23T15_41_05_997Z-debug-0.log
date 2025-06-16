@@ -1,0 +1,13 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.14.0
+3 silly config load:file:C:\Users\Admin\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Admin\Desktop\Github\8.Office Crm\frontend 05-05-2024(Probably Latest)\OfficeCRMFE\.npmrc
+5 silly config load:file:C:\Users\Admin\.npmrc
+6 silly config load:file:C:\Users\Admin\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\Admin\Desktop\Github\8.Office Crm\frontend 05-05-2024(Probably Latest)\OfficeCRMFE\UsersAdminAppDataLocalnpm-cache\_logs\2024-07-23T15_41_05_997Z-
+10 verbose logfile C:\Users\Admin\Desktop\Github\8.Office Crm\frontend 05-05-2024(Probably Latest)\OfficeCRMFE\UsersAdminAppDataLocalnpm-cache\_logs\2024-07-23T15_41_05_997Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 270ms

@@ -1,0 +1,107 @@
+        <Modal
+                                    style={{ overflowX: "scroll" }}
+                                    show={showModal}
+                                    onHide={() => {
+                                        setShowModal(false);
+
+                                        handleprojectFetch();
+                                        setTimeout(() => {
+                                            const scrollY = sessionStorage.getItem("scrollPosition");
+                                            ;
+                                            if (scrollY !== null) {
+                                                window.scrollTo(0, parseInt(scrollY));
+                                            }
+                                        }, 100);
+                                    }}
+                                >
+                                    <Modal.Header>
+                                        <Modal.Title>Project History</Modal.Title>
+                                    </Modal.Header>
+                                    <Modal.Body>
+                                        <Row>
+                                            <Col className="mx-auto">
+                                                <Card style={{ width: 'max-content' }} border="light" className="shadow-sm">
+                                                    <Card.Header>
+                                                        <Row style={{ width: "100%" }} className="align-items-center">
+                                                            <Col>
+                                                                <h5>Tasks for {project?.name}</h5>
+                                                            </Col>
+                                                            <Col style={{ width: "100%" }} className="text-end">
+                                                                <Button variant="secondary" size="sm">Add</Button>
+                                                            </Col>
+                                                        </Row>
+                                                    </Card.Header>
+                                                    <Table responsive className="align-items-center table-flush">
+                                                        <thead className="thead-light">
+                                                            <tr>
+                                                                <th scope="col" className="unselectable" style={{ cursor: "pointer" }} onClick={() => settemp(temp === 1 ? 2 : 1)}>Created At</th>
+
+
+                                                                <th scope="col">Project Name</th>
+
+                                                                <th scope="col">Task Subject</th>
+                                                                <th scope="col">Task Description</th>
+                                                                <th scope="col">Assigned to</th>
+                                                                <th scope="col">Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            {filtertasks.length === 0 ? (
+                                                                <tr>
+                                                                    <td colSpan="6" className="text-center">loading...</td>
+                                                                </tr>
+                                                            ) : (
+                                                                filtertasks.sort((a, b) => {
+                                                                    if (temp === 1) {
+                                                                        return new Date(a.CreatedAt) - new Date(b.CreatedAt); // Ascending order
+                                                                    } else if (temp === 2) {
+                                                                        return new Date(b.CreatedAt) - new Date(a.CreatedAt); // Descending order
+                                                                    }
+                                                                    return 0;
+                                                                }).map((row, index) => {
+                                                                    const projectName = projects.find(p => p._id === row.projectid).name
+                                                                    console.log(projectName)
+                                                                    return (
+                                                                        <tr key={index}>
+                                                                            <td style={{ whiteSpace: "pre-wrap" }}>{timeinIndia(row.CreatedAt)}</td>
+
+                                                                            <td style={{ textAlign: "left", cursor: "pointer", whiteSpace: "pre-wrap" }} onClick={() => handletaskhistory(row)}><p><span style={{ position: "relative", top: "15px", border: "4px solid cyan", borderRadius: "200px", fontWeight: "700" }}>{row.nooftask}</span>{row.taskSubject}</p></td>
+                                                                            <td style={{ whiteSpace: "pre-wrap", maxWidth: '30px' }}>{row.taskSubject}</td>
+                                                                            <td style={{ whiteSpace: "pre-wrap", maxWidth: '30px' }}><pre style={{ whiteSpace: "pre-wrap" }}>{row.taskDescription}</pre></td>
+                                                                            {/* <td style={{ whiteSpace: "pre-wrap" }}>{getUsernameById(row.assignTaskTo)}</td> */}
+                                                                            <td>
+                                                                                <Button style={{ backgroundColor: "aqua", color: "black" }} variant="info" size="sm" onClick={() => handleEditModal(row)}>
+                                                                                    <FontAwesomeIcon icon={faEdit} />
+                                                                                </Button>
+                                                                                {/* <Button style={{ borderColor: "black", backgroundColor: "aqua", color: "black", marginLeft: "2%" }} onClick={() => dispatch(deletetasks(row._id))} variant="danger" size="sm">
+                                                                                    <FontAwesomeIcon icon={faTrash} />
+                                                                                </Button> */}
+                                                                                <Button style={{ backgroundColor: "aqua", color: "black", marginLeft: "2%" }} onClick={() => handleaddhistory(row)}>Add</Button>
+                                                                                <Button
+                                                                                    style={{ backgroundColor: "aqua", color: "black", marginLeft: "2%" }}
+                                                                                // onClick={() => handleComplete(row._id)}
+                                                                                >
+                                                                                    {row.taskCompleted ? "Mark incomplete" : "Mark complete"}
+                                                                                </Button>
+
+                                                                            </td>
+                                                                        </tr>
+                                                                    )
+                                                                })
+                                                            )}
+
+                                                        </tbody>
+                                                    </Table>
+                                                </Card>
+                                            </Col>
+                                        </Row>
+                                    </Modal.Body>
+                                    <Modal.Footer>
+                                        <Button variant="secondary" onClick={() => {
+                                            setShowModal(false)
+                                            handleprojectFetch()
+                                        }}>
+                                            Cancel
+                                        </Button>
+                                    </Modal.Footer>
+                                </Modal>
