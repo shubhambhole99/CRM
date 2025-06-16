@@ -98,7 +98,17 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+      "globals": {
+    "setTaskhistoryId": "readonly",
+    "setTextHistory": "readonly",
+    "path": "readonly",
+    "userId": "readonly",
+    "handleComplete": "readonly",
+    "switchstatus": "readonly",
+    "setFileExtension": "readonly",
+    "handleRedirect": "readonly"
+  }
   },
   "browserslist": {
     "production": [
