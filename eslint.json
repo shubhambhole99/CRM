@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "setTaskhistoryId": "readonly",
+    "setTextHistory": "readonly",
+    "path": "readonly",
+    "userId": "readonly",
+    "handleComplete": "readonly",
+    "switchstatus": "readonly",
+    "setFileExtension": "readonly",
+    "handleRedirect": "readonly"
+  }
+}
